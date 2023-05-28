@@ -1,301 +1,260 @@
-<!DOCTYPE html>
-<html lang="fr">
+<!DOCTYPE HTML>
+<!--
+	Solid State by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>VirusLab</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    	<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+	</head>
+	<body class="is-preload">
 
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-    <link rel="stylesheet" href="css/styles.css">
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-    <script src="https://kit.fontawesome.com/95a02bd20d.js"></script>
-    <title>VirusLab</title>
-    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
-</head>
+				<!-- Header -->
+					<header id="header" class="alt">
+						<h1><a href="index.html">VirusLab</a></h1>
+						<nav>
+							<a href="#menu">Menu</a>
+						</nav>
+					</header>
 
+				<!-- Menu -->
+					<nav id="menu">
+						<div class="inner">
+							<h2>Menu</h2>
+							<ul class="links">
+								<li><a href="#"><ion-icon name="home-outline"></ion-icon>  Accueil</a></li>
+								<li><a href="#proj"><ion-icon name="game-controller-outline"></ion-icon>  Projet</a></li>
+								<li><a href="#grp"><ion-icon name="people-circle-outline"></ion-icon>  Groupe</a></li>
+								<li><a href="#docs"><ion-icon name="documents-outline"></ion-icon>  Documents</a></li>
+								<li><a href="#dwld"><ion-icon name="cloud-download-outline"></ion-icon>  Téléchargements</a></li>
+							</ul>
+							<a href="#" class="close">Close</a>
+						</div>
+					</nav>
 
-<body>
-    
-    <!--SECTION ACCUEIL-->
-    <section class="top-page" id="home">
+				<!-- Banner -->
+				<!--A rajouter-->
+					<section id="banner">
+						<div class="inner">
+							<div class="logo"></div> 
+							<h2>VirusLab</h2>
+							<p>Arriverez-vous à arrêter le virus ?</p>
+						</div>
+					</section>
 
-        <header class = "header">
+				<!-- Wrapper -->
+					<section class = "projet" id="proj">
 
-            <nav class = "nav">
+						<!-- One -->
+							<section id="one" class="wrapper spotlight style1">
+								<div class="inner">
+									<a href="#" class="image"><img src="images/covid.png" alt="" /></a>
+									<div class="content">
+										<h2 class="major">A propos de VirusLab</h2>
+										<p class = "text">
+											Le port du masque, le confinement, le couvre-feu : Tant de choses qui nous rappelle la <i>Covid-19</i>. C'est ainsi que nous est venue l'idée de
+											créer ce jeu.
+											Tous ces évènements ont mis en évidence un manque de préparation et de compréhension au sein de la population. 
+											Encore d’actualité aujourd’hui, cette crise sanitaire aura eu un impact conséquent, et restera dans les mémoires. 
+											<br/> Concevoir un jeu qui porte sur ce sujet était donc <b>crutial</b> pour nous afin de savoir comment un virus se propage,
+											comment le contrer ou ne serait-ce que limiter sa propagation pour ne pas tomber dans des conditions extrêmes que nous avons vécues
+											tout en restant dans un cadre ludique.
+										</p>									
+									</div>
+								</div>
+							</section>
 
-                <li class = "list active">
-                    <a  href="#home">
-                        <span class = "icon"><ion-icon name="home-outline"></ion-icon></span>
-                        <span class = "text">Accueil</span>
-                    </a>
-                </li>
+						<!-- Two -->
+							<section id="two" class="wrapper alt spotlight style2">
+								<div class="inner">
+									<a href="#" class="image"><img src="images/2nd.png" alt="" /></a>
+									<div class="content">
+										<h2>Présentation du jeu</h2>
+										<p>
+											A vous qui jouiez durant la pandémie mondiale, et si celle-ci venait à devenir le cadre d'un jeu divertissant et immersif ?
+											<br/>Bienvenue dans l'univers de VirusLab !
+											<br/>Ce projet ambitieux se propose de transporter les joueurs dans un monde tant scientifique que ludique par les divers rôles qu'il
+											offre à incarner.
+											<br/>L'objectif est simple : Influencer la propagation du virus !
+										</p>
+									</div>
+								</div>
+							</section>
 
-                <li class = "list">
-                    <a  href="#proj">
-                        <span class = "icon"><ion-icon name="game-controller-outline"></ion-icon></span>
-                        <span class = "text">Projet</span>
-                    </a>
-                </li>
-                <li class = "list">
-                    <a  href="#grp">
-                        <span class = "icon"><ion-icon name="people-circle-outline"></ion-icon></span>
-                        <span class = "text">Groupe</span>
-                    </a>
-                </li>
-                <li class = "list">
-                    <a  href="#docs">
-                        <span class = "icon"><ion-icon name="documents-outline"></ion-icon></span>
-                        <span class = "text">Documents</span>
-                    </a>
-                </li>
-                <li class = "list">
-                    <a  href="#dwld">
-                        <span class = "icon"><ion-icon name="cloud-download-outline"></ion-icon></span>
-                        <span class = "text">Téléchargements</span>
-                    </a>
-                </li>
+						<!-- Three -->
+							<section id="three" class="wrapper spotlight style3">
+								<div class="inner">
+									<a href="#" class="image"><img src="images/third.png" alt="" /></a>
+									<div class="content">
+										<h2>Principe du jeu</h2>
+										<p>
+											Que vous soyez un <i>Scientist</i>, un <i>Crow</i> ou un autre rôle, vous devrez agir sur la propagation du virus, gérée par une IA.
+											<br/>Vous pourrez influencer la circulation du virus via des tâches que vous aurez à réaliser tout autour de la map.
+											Ces missions vous donneront des points de compétence que vous utiliserez, <i>stratégiquement</i>, en fonction de votre rôle attribué en début 
+											de partie aléatoirement.   
+										</p>
+									</div>
+								</div>
+							</section>	
+					</section>
 
-                <script>
-                    let list = document.querySelectorAll('.list');
-        
-                    function Linking()
-                    {
-                        list.forEach(item =>
-                        item.classList.remove('active'));
-                        this.classList.add('active');
-                    }
-                    list.forEach(item =>
-                    item.addEventListener('click', Linking));
-                </script>
+					<section id="grp">
+						<div class="container">
+							<!--Maxence's card-->
+							<div class="card">
+								<div class="content">
+							
+									<div class="photo">
+										<img src="images/GRP/maxanox.png">
+									</div>
+							
+									<h1>Maxence COSAQUE</h1>
+									<p>Chef de projet - Développeur IA</p>
+									<a href="mailto:maxence.cosaque@epita.fr" class="btn btn--contact"> Me contacter</a>
+							
+								</div>
+							</div>
+				
+							<!--Matheo's card-->
+							<div class="card">
+								<div class="content">
+							
+									<div class="photo">
+										<img src="images/GRP/moi.png">
+									</div>
+							
+									<h1>Mathéo PICARD</h1>
+									<p>Développeur - Graphiste</p>
+									<a href="mailto:matheo.picard@epita.fr" class="btn btn--contact"> Me contacter</a>
+							
+								</div>
+							</div>
+						</div>
+					</section>
+						
+					<section id="docs">
+						<!-- Four -->
+							<section id="four" class="wrapper alt style1">
+								<div class="inner">
+									<h2 class="major">Documents téléchargeables</h2>
+									<p>
+										Cahier des charges, rapports de soutenance, documentation du jeu et bien d'autres
+										documents relatants à notre projet sont disponibles et téléchargeables.
+									</p>
+									<section class="features">
+										<article>
+											<a class="image"><img src="images/checklist.png" alt="" /></a>
+											<h3 class="major">Cahier des charges - Première version</h3>
+											<p>
 
-            </nav>
-        </header>
-        
-        <div class="landing-page">
+											</p>
+											<a href="#" class="special">Télécharger</a>
+										</article>
 
-            <h1 class = "big-title">
-                VirusLab, arriverez-vous à arrêter le virus ?
-            </h1>
+										<article>
+											<a class="image"><img src="images/checklist.png" alt="" /></a>
+											<h3 class="major">Cahier des charges - Version finale</h3>
+											<p>
+												
+											</p>
+											<a href="PDF/Cahier_des_charges.pdf" class="special">Télécharger</a>
+										</article>
 
-            <a href="#proj">
-                
-                <div class="btn">
-                    <button>
-                        <span class="txt">En savoir plus</span>
-                        <i></i>
-                    </button>
-                </div>
-        
-            </a>
+										<article>
+											<a class="image"><img src="images/plan.png" alt="" /></a>
+											<h3 class="major">Plan de la première soutenance</h3>
+											<p>
+												
+											</p>
+											<a href="PDF/VirusLabPlan_1.pdf" class="special">Télécharger</a>
+										</article>
 
-        </div>
+										<article>
+											<a class="image"><img src="images/report.png" alt="" /></a>
+											<h3 class="major">Rapport de la première soutenance</h3>
+											<p>
 
-    </section> 
-    
+											</p>
+											<a href="PDF/VirusLabRapport_1.pdf" class="special">Télécharger</a>
+										</article>
 
+										<article>
+											<a class="image"><img src="images/plan.png" alt="" /></a>
+											<h3 class="major">Plan de la deuxième soutenance</h3>
+											<p>
+												
+											</p>
+											<a href="#" class="special">Télécharger</a>
+										</article>
 
-    <!--SECTION PROJET-->
-    <section class="projet" id = "proj">
-        <div class="left">
-            <img src="images/covid.png" alt="">
-            <div class="txt">
+										<article>
+											<a href="#" class="image"><img src="images/report.png" alt="" /></a>
+											<h3 class="major">Rapport de la deuxième soutenance</h3>
+											<p>
+												
+											</p>
+											<a href="#" class="special">Télécharger</a>
+										</article>
+									</section>
+									<!--
+									<ul class="actions">
+										<li><a href="#" class="button">Tout télécharger</a></li>
+									</ul>		
+									-->
+								</div>
+							</section>
 
-                <h2>A propos de VirusLab</h2>
-                <p>
-                    Le port du masque, le confinement, le couvre-feu : Tant de choses qui nous rappelle la <i>Covid-19</i>. C'est ainsi que nous est venue l'idée de
-                    créer ce jeu.
-                    Tous ces évènements ont mis en évidence un manque de préparation et de compréhension au sein de la population. 
-                    Encore d’actualité aujourd’hui, cette crise sanitaire aura eu un impact conséquent, et restera dans les mémoires. 
-                    <br/> Concevoir un jeu qui porte sur ce sujet était donc <b>crutial</b> pour nous afin de savoir comment un virus se propage,
-                    comment le contrer ou ne serait-ce que limiter sa propagation pour ne pas tomber dans des conditions extrêmes que nous avons vécues
-                    tout en restant dans un cadre ludique.
-                </p>
-            </div>
-        </div>
+					</section>
 
-        <div class="right">
-            <div class="txt">
-                <img src="images/2nd.png" alt="">
-                <h2>Présentation du jeu</h2>
-                <p>
-                    A vous qui jouiez durant la pandémie mondiale, et si celle-ci venait à devenir le cadre d'un jeu divertissant et immersif ?
-                    <br/>Bienvenue dans l'univers de VirusLab !
-                    <br/>Ce projet ambitieux se propose de transporter les joueurs dans un monde tant scientifique que ludique par les divers rôles qu'il
-                    offre à incarner.
-                    <br/>L'objectif est simple : Influencer la propagation du virus !
-                </p>
+					<section class="dwld" id = "dwld">
+						<div class="container2">
+				 
+							<div class="dl">
+				
+								<div class="face face1">
+									<div class="content">
+										<i class="fab fa-windows">
+										</i>
+										<h3>Windows</h3>
+									</div>
+								</div>
+				
+								<div class="face face2">
+									<div class="content">
+										<p>Pour jouer à VirusLab sous Windows !</p>
+										<a href="#" type="button">Téléchargement</a>
+									</div>
+								</div>
+							</div>
+				
+						</div>
+					</section>
 
-                
-            </div>
-        </div>
+				<!-- Footer -->
+				<footer>
+					<p class="cop">&copy; VirusLab - 2023 - VirusLab by Epita's Students</p>
+				</footer>
 
-        <div class="left">
-            <img src="images/map.png" alt="">
-            <div class="txt">
+			</div>
 
-                <h2>Principe du jeu</h2>
-                <p>
-                    Que vous soyez un <i>Scientist</i>, un <i>Crow</i> ou un autre rôle, vous devrez agir sur la propagation du virus, gérée par une IA.
-                    <br/>Vous pourrez influencer la circulation du virus via des tâches que vous aurez à réaliser tout autour de la map.
-                    Ces missions vous donneront des points de compétence que vous utiliserez, <i>stratégiquement</i>, en fonction de votre rôle attribué en début 
-                    de partie aléatoirement.   
-                </p>
-            </div>
-        </div>
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
 
-    </section>
-
-
-
-    <!--SECTION GROUPE-->
-    <section class="groupe" id = "grp">
-        <div class="container">
-            <!--Maxence's card-->
-            <div class="card">
-                <div class="content">
-            
-                    <div class="photo">
-                        <img src="images/GRP/maxanox.png">
-                    </div>
-            
-                    <h1>Maxence COSAQUE</h1>
-                    <p>Chef de projet - Développeur IA</p>
-                    <a href="#"> Me contacter</a>
-            
-                </div>
-            </div>
-
-            <!--Matheo's card-->
-            <div class="card">
-                <div class="content">
-            
-                    <div class="photo">
-                        <img src="images/GRP/moi.png">
-                    </div>
-            
-                    <h1>Mathéo PICARD</h1>
-                    <p>Développeur Web - Développeur multijoueur</p>
-                    <a href="#"> Me contacter</a>
-            
-                </div>
-            </div>
-
-            <!--Adam's card-->
-            <div class="card">
-                <div class="content">
-            
-                    <div class="photo">
-                        <img src="images/GRP/choujar.png">
-                    </div>
-            
-                    <h1>Adam CHOUJAR</h1>
-                    <p>Développeur</p>
-                    <a href=""> Me contacter</a>
-            
-                </div>
-            </div>
-
-            <!--Adrien's card-->
-            <div class="card">
-                <div class="content">
-            
-                    <div class="photo">
-                        <img src="images/GRP/ad.png">
-                    </div>
-            
-                    <h1>Adrien VALLON</h1>
-                    <p>Graphiste</p>
-                    <a href=""> Me contacter</a>
-            
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-
-    <!--SECTION DOCS-->
-    <section class="docs" id = "docs"> 
-        <div class="wrapper">
-
-            <div class="one">
-                <h1>Cahier des charges</h1>
-                <a href="PDF/Cahier_des_charges.pdf">Téléchargement</a>
-            </div>
-
-            <div class="two">
-                <h1>Soutenance n°1</h1>
-                <a href="">Téléchargement</a>
-            </div>
-
-            <div class="three">
-                <h1>Soutenance n°2</h1>
-                <a href="">Téléchargement</a>
-            </div>
-
-            <div class="four">
-                <h1>Soutenance n°3</h1>
-                <a href="">Téléchargement</a>
-            </div>
-
-          </div>
-    </section>
-    
-
-
-
-    <!--SECTION DL-->
-    <section class="téléchargements" id = "dwld">
-        <div class="container2">
- 
-            <div class="dl">
-
-                <div class="face face1">
-                    <div class="content">
-                        <i class="fab fa-windows">
-                        </i>
-                        <h3>Windows</h3>
-                    </div>
-                </div>
-
-                <div class="face face2">
-                    <div class="content">
-                        <p>Pour jouer à VirusLab sous Windows !</p>
-                        <a href="#" type="button">Téléchargement</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="dl">
-
-                <div class="face face1">
-                    <div class="content">
-                        <i class="fab fa-linux"></i>
-                        <h3>Linux</h3>
-                    </div>
-                </div>
-
-                <div class="face face2">
-                    <div class="content">
-                        <p>Pour jouer à VirusLab sous Linux !</p>
-                        <a href="#" type="button">Téléchargement</a>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </section>
-
-    <!--SECTION USING-->
-    <section class="using">
-
-    </section>
-
-    <footer>
-        <p class="cop">&copy; VirusLab - 2023 - VirusLab by Epita's Students</p>
-    </footer>
-
-</body>
-
+	</body>
 </html>
